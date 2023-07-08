@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Recruitment Solution</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Homepage -->
+  <header>
+    <div class="container">
+      <h1>Digital Recruitment Solution</h1>
+    </div>
+  </header>
+  <div class="info">
+    <h2>Welcome to our Digital Recruitment Solution</h2>
+    <p>Experience seamless hiring for your company with our efficient online recruitment solution.</p>
+    <p>Key Features:</p>
+    <ul>
+      <li>Advanced candidate search</li>
+      <li>Efficient evaluation tools</li>
+      <li>Streamlined communication</li>
+    </ul>
+  </div>
+
+  <!-- User Login Page -->
+  <div class="login">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <!-- User Register Page -->
+  <div class="register">
+    <h2>Register</h2>
+    <form id="register-form">
+      <label for="company-name">Company Name:</label>
+      <input type="text" id="company-name" name="company-name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+
+  <!-- Candidate Search Page -->
+  <div class="candidate">
+    <h2>Search Candidates</h2>
+    <form id="search-form">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location"><br><br>
+      <label for="job-role">Job Role:</label>
+      <input type="text" id="job-role" name="job-role"><br><br>
+      <input type="submit" value="Search">
+    </form>
+
+    <!-- Candidate Listing -->
+    <div id="search-results"></div>
+</div>
+</body>
+</html>
